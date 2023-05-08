@@ -15,6 +15,9 @@ public class attPessoa {
 		
 		System.out.println(pessoa.juntaNome());
 		
+		JOptionPane.showMessageDialog(null, "nome completo : " + pessoa.juntaNome());
+		
+		pessoa.juntaNome();
 	}
 
 }
